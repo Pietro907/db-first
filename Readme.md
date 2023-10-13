@@ -10,13 +10,14 @@ auto usate messe in vendita da un concessionario
  # DataBase Autoconcessionaria
 
  ## Parco macchine
- - nome // NOT NULL
+ - nome // NULL 
+ - anno // NULL TINYINT(4, 0)
+ - marca // NULL 
+ - disponibilità //NULL TINYINT(3, 0) 
+ - prezzo // NULL INT DECIMAL(9, 2)
+
+ - colore // NOT NULL
+ - quantità // NOT ULL
+ - alimentazione/carburante // NOT NULL
+ - specifiche tecniche // NOT NULL
  - modello // NOT NULL
- - colore // NULL
- - marca // NOT NULL
- - alimentazione/carburante // NULL
- - disponibilità //NULL
- - quantità // NULL
- - prezzo // NOT NULL
- - anno // NULL
- - specifiche tecniche // NULL
